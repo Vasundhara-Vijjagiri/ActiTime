@@ -8,6 +8,7 @@ public class Demo {
 	public void run()
 	{
 		Reporter.log("am run",true);
+		Reporter.log("am run",true);
 	}
 	
 
