@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Hi Run]]>
+    </line>
+    <line>
+      <![CDATA[Hi Run]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="232" started-at="2020-08-10T16:51:16 IST" finished-at="2020-08-10T16:51:16 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="232" started-at="2020-08-10T16:51:16 IST" finished-at="2020-08-10T16:51:16 IST">
+      <class name="com.ActiTime.genericLib.App">
+        <test-method status="PASS" signature="run()[pri:0, instance:com.ActiTime.genericLib.App@4f063c0a]" name="run" duration-ms="37" started-at="2020-08-10T16:51:16 IST" finished-at="2020-08-10T16:51:16 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Hi Run]]>
+            </line>
+            <line>
+              <![CDATA[Hi Run]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- run -->
+      </class> <!-- com.ActiTime.genericLib.App -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
