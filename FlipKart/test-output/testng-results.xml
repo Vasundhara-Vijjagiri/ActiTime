@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Default test started]]>
+    </line>
+    <line>
+      <![CDATA[flipkartLogout method Started]]>
+    </line>
+    <line>
+      <![CDATA[Login  is Displyed]]>
+    </line>
+    <line>
+      <![CDATA[Login  is Displyed]]>
+    </line>
+    <line>
+      <![CDATA[flipkartLogout method PASSED]]>
+    </line>
+    <line>
+      <![CDATA[searchField method Started]]>
+    </line>
+    <line>
+      <![CDATA[Login  is Displyed]]>
+    </line>
+    <line>
+      <![CDATA[Home Page  is Disaplayed===> Passed]]>
+    </line>
+    <line>
+      <![CDATA[Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!]]>
+    </line>
+    <line>
+      <![CDATA[searchField method PASSED]]>
+    </line>
+    <line>
+      <![CDATA[flipkartLogin method Started]]>
+    </line>
+    <line>
+      <![CDATA[Login  is Displyed]]>
+    </line>
+    <line>
+      <![CDATA[flipkartLogin method PASSED]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="184389" started-at="2020-08-16T22:47:48 IST" finished-at="2020-08-16T22:50:52 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="184389" started-at="2020-08-16T22:47:48 IST" finished-at="2020-08-16T22:50:52 IST">
+      <class name="com.FlipKart.Home.FlipLogout">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.FlipKart.Home.FlipLogout@4b1c1ea0]" name="openBrowser" is-config="true" duration-ms="49277" started-at="2020-08-16T22:47:48 IST" finished-at="2020-08-16T22:48:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="flipkartLogout()[pri:0, instance:com.FlipKart.Home.FlipLogout@4b1c1ea0]" name="flipkartLogout" duration-ms="16842" started-at="2020-08-16T22:48:37 IST" finished-at="2020-08-16T22:48:54 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[flipkartLogout method Started]]>
+            </line>
+            <line>
+              <![CDATA[Login  is Displyed]]>
+            </line>
+            <line>
+              <![CDATA[Login  is Displyed]]>
+            </line>
+            <line>
+              <![CDATA[flipkartLogout method PASSED]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- flipkartLogout -->
+      </class> <!-- com.FlipKart.Home.FlipLogout -->
+      <class name="com.FlipKart.Home.SearchField">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.FlipKart.Home.SearchField@17579e0f]" name="openBrowser" is-config="true" duration-ms="47888" started-at="2020-08-16T22:48:54 IST" finished-at="2020-08-16T22:49:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="searchField()[pri:0, instance:com.FlipKart.Home.SearchField@17579e0f]" name="searchField" duration-ms="29473" started-at="2020-08-16T22:49:42 IST" finished-at="2020-08-16T22:50:12 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[searchField method Started]]>
+            </line>
+            <line>
+              <![CDATA[Login  is Displyed]]>
+            </line>
+            <line>
+              <![CDATA[Home Page  is Disaplayed===> Passed]]>
+            </line>
+            <line>
+              <![CDATA[Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!]]>
+            </line>
+            <line>
+              <![CDATA[searchField method PASSED]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchField -->
+      </class> <!-- com.FlipKart.Home.SearchField -->
+      <class name="com.FlipKart.Home.FlipKartValidLogin">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.FlipKart.Home.FlipKartValidLogin@4d41cee]" name="openBrowser" is-config="true" duration-ms="36704" started-at="2020-08-16T22:50:12 IST" finished-at="2020-08-16T22:50:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="flipkartLogin()[pri:0, instance:com.FlipKart.Home.FlipKartValidLogin@4d41cee]" name="flipkartLogin" duration-ms="3559" started-at="2020-08-16T22:50:48 IST" finished-at="2020-08-16T22:50:52 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[flipkartLogin method Started]]>
+            </line>
+            <line>
+              <![CDATA[Login  is Displyed]]>
+            </line>
+            <line>
+              <![CDATA[flipkartLogin method PASSED]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- flipkartLogin -->
+      </class> <!-- com.FlipKart.Home.FlipKartValidLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
