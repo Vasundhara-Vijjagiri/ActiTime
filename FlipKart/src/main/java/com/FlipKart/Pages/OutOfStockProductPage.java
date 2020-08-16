@@ -9,14 +9,6 @@ import org.testng.Reporter;
 public class OutOfStockProductPage
 {
 
-@FindBy(xpath="//div[@class='_1vC4OE _2rQ-NK' and .='₹14,499']") private WebElement outStockProduct;
-public WebElement getOutStockProduct() {
-	return outStockProduct;
-}
-
-public void setOutStockProduct() {
-	outStockProduct.click();
-}
 
 @FindBy(xpath="//div[@class='_13J5uS' and .='Currently out of stock in this area.']") private WebElement outofStock;
 

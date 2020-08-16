@@ -29,7 +29,7 @@ public void onTestFailure(ITestResult result)
 Reporter.log(result.getName()+" method Failed",true);
 TakesScreenshot ts=(TakesScreenshot) driver;
 File src=ts.getScreenshotAs(OutputType.FILE);
-File dest=new File("./ScreenShots/"+result.getName()+".png");
+File dest=new File("C:\\Users\\vassu\\git\\repository2\\FlipKart\\src\\main\\resources\\ScreenShots"+result.getName()+".png");
 try
 {
 	Files.copy(src, dest);
@@ -51,14 +51,13 @@ public void onTestSkipped(ITestResult result)
 		}
 
 @Override
-public void onStart(ITestContext context)
-{
-	Reporter.log(context.getName()+" started",true);
-}
-
-@Override
 public void onFinish(ITestContext context)
 {
 	Reporter.log(context.getName()+" ended",true);
+}
+@Override
+public void onStart(ITestContext context)
+{
+	Reporter.log(context.getName()+" started",true);
 }
 }

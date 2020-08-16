@@ -26,9 +26,12 @@ public void addingOutOfStock() throws Throwable
 		Thread.sleep(2000);
 		wlib.waitforAllElements(sb.enterOnProduct());
 		sb.enterOnProduct(flib.getPropertyValue(PROPERTY_PATH, "nameOfProduct"));
-		wlib.waitForPageTitle(flib.getPropertyValue(PROPERTY_PATH, "anotherProductTitle"));
+		
 		ProductsList pl=new ProductsList(driver);
+		wlib.waitForPageTitle(flib.getPropertyValue(PROPERTY_PATH, "anotherProductTitle"));
 		wlib.waitForElementVisibility(pl.getLowHigh());
+		pl.setLowHigh();
+		Thread.sleep(5000);
 		pl.setOutStockProduct();
 	    wlib.handleWindow(flib.getPropertyValue(PROPERTY_PATH, "OutOfStockTitle"));
 		wlib.waitForPageTitle(flib.getPropertyValue(PROPERTY_PATH, "OutOfStockTitle"));

@@ -1,24 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
-  <test thread-count="5" name="Test2(failed)" parallel="tests">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.FlipKart.Home.FlipLogout">
+      <class name="com.FlipKart.AddCart.AddingOutOfStockProduct">
         <methods>
           <include name="openBrowser"/>
-          <include name="flipkartLogout"/>
+          <include name="addingOutOfStock"/>
         </methods>
-      </class> <!-- com.FlipKart.Home.FlipLogout -->
+      </class> <!-- com.FlipKart.AddCart.AddingOutOfStockProduct -->
     </classes>
-  </test> <!-- Test2(failed) -->
-  <test thread-count="5" name="Test1(failed)" parallel="tests">
-    <classes>
-      <class name="com.FlipKart.Home.SearchField">
-        <methods>
-          <include name="openBrowser"/>
-          <include name="searchField"/>
-        </methods>
-      </class> <!-- com.FlipKart.Home.SearchField -->
-    </classes>
-  </test> <!-- Test1(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

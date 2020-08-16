@@ -61,7 +61,7 @@ public class ProductsList {
 		
 	}
 
-	@FindBy(xpath="//div[@class='_1vC4OE _2rQ-NK' and .='₹14,499']") private WebElement outStockProduct;
+	@FindBy(xpath="//div[.='Samsung 80cm (32 inch) HD Ready LED Smart TV']/ancestor::div[1]/following-sibling::div[1]/descendant::div[3][.='₹14,499']") private WebElement outStockProduct;
 	public WebElement getOutStockProduct() {
 		return outStockProduct;
 	}
@@ -72,8 +72,7 @@ public class ProductsList {
 	
 	public void setoutOfStockTV()
 	{WebDriverCommonLib wlib=new WebDriverCommonLib();
-	wlib.waitForElementVisibility(getLowHigh());
-		lowHigh.click();
+	
 		wlib.waitForElementVisibility(getOutStockProduct());
 		wlib.mouseHoverAction(getOutStockProduct());
 		outStockProduct.click();
