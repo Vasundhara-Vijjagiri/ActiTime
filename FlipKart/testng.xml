@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite"  >
-  <test  name="Test">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
     <classes>
+      <class name="com.FlipKart.ProductsDetails.OnemoreProductList"/>
       <class name="com.FlipKart.Home.SearchField"/>
+      <class name="com.FlipKart.AddCart.BuyNowProduct"/>
+      <class name="com.FlipKart.ProductsDetails.DisplayProducts"/>
+      <class name="com.FlipKart.PlaceOrder.PlaceOrder"/>
+      <class name="com.FlipKart.AddCart.MultipleProductsAdd"/>
+      <class name="com.FlipKart.AddCart.ProductAddingInCart"/>
+      <class name="com.FlipKart.PlaceOrder.MultiplePlaceOrder"/>
       <class name="com.FlipKart.Home.FlipLogout"/>
+      <class name="com.FlipKart.AddCart.AddingOutOfStockProduct"/>
       <class name="com.FlipKart.Home.FlipKartValidLogin"/>
+      <class name="com.FlipKart.OrderSummary.OrderSummary"/>
     </classes>
-  </test> 
-</suite> 
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
