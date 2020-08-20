@@ -1,17 +1,23 @@
 package com.FlipKart.genericLib;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.List;
 import java.util.Set;
 
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.OutputType;
 import org.openqa.selenium.Point;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.Reporter;
+
+import com.google.common.io.Files;
 
 
 /**
@@ -26,6 +32,21 @@ public String getPageTitle()
 	String title=driver.getTitle();
 	return title;
 }
+
+public void getFullPageScreenShot(String path) throws Throwable
+{EventFiringWebDriver efw=new EventFiringWebDriver(driver);
+File src=efw.getScreenshotAs(OutputType.FILE);
+File dest=new File(path);
+Files.copy(src, dest);
+}
+
+public void getElementScreenshot(String path,WebElement element) throws Throwable
+{
+	File src=element.getScreenshotAs(OutputType.FILE);
+	File dest=new File(path);
+	Files.copy(src, dest);
+}
+
 public String getElementText(WebElement element)
 {
 	String text=element.getText();

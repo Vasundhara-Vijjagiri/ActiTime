@@ -5,41 +5,89 @@
       <![CDATA[Login  is Displyed]]>
     </line>
     <line>
-      <![CDATA[samsung smart tv 32 inches  product successfully Selected]]>
+      <![CDATA[Home Page  is Disaplayed===> Passed]]>
+    </line>
+    <line>
+      <![CDATA[Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!]]>
+    </line>
+    <line>
+      <![CDATA[realme6 pro  product successfully Selected]]>
+    </line>
+    <line>
+      <![CDATA[ProductsList page  is Disaplayed===> Passed]]>
+    </line>
+    <line>
+      <![CDATA[Realme 6 Pro ( 64 GB GB Storage, 6 GB RAM ) Online at Best Price On Flipkart.com is displayed ]]>
     </line>
     <line>
       <![CDATA[product Details Page  is Disaplayed===> Passed]]>
     </line>
     <line>
-      <![CDATA[Currently out of stock in this area. is displayed]]>
+      <![CDATA[Order Page  is Disaplayed===> Passed]]>
+    </line>
+    <line>
+      <![CDATA[samsung smart tv 32 inches  product successfully Selected]]>
+    </line>
+    <line>
+      <![CDATA[One more ProductsList page  is Disaplayed===> Passed]]>
+    </line>
+    <line>
+      <![CDATA[Samsung 80cm (32 inch) HD Ready LED Smart TV with Voice Search Online at best Prices In India is displayed ]]>
+    </line>
+    <line>
+      <![CDATA[another product details page  is Disaplayed===> Passed]]>
     </line>
   </reporter-output>
-  <suite name="Failed suite [Default suite]" duration-ms="77899" started-at="2020-08-17T04:29:10 IST" finished-at="2020-08-17T04:30:27 IST">
+  <suite name="Default suite" duration-ms="164080" started-at="2020-08-17T20:07:28 IST" finished-at="2020-08-17T20:10:13 IST">
     <groups>
     </groups>
-    <test name="Default test(failed)" duration-ms="77899" started-at="2020-08-17T04:29:10 IST" finished-at="2020-08-17T04:30:27 IST">
-      <class name="com.FlipKart.AddCart.AddingOutOfStockProduct">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.FlipKart.AddCart.AddingOutOfStockProduct@74650e52]" name="openBrowser" is-config="true" duration-ms="29314" started-at="2020-08-17T04:29:10 IST" finished-at="2020-08-17T04:29:39 IST">
+    <test name="Default test" duration-ms="164080" started-at="2020-08-17T20:07:28 IST" finished-at="2020-08-17T20:10:13 IST">
+      <class name="com.FlipKart.ProductsDetails.OnemoreProductList">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.FlipKart.ProductsDetails.OnemoreProductList@3b088d51]" name="openBrowser" is-config="true" duration-ms="69468" started-at="2020-08-17T20:07:29 IST" finished-at="2020-08-17T20:08:39 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="addingOutOfStock()[pri:0, instance:com.FlipKart.AddCart.AddingOutOfStockProduct@74650e52]" name="addingOutOfStock" duration-ms="48144" started-at="2020-08-17T04:29:39 IST" finished-at="2020-08-17T04:30:27 IST">
+        <test-method status="PASS" signature="oneMoreDisplay()[pri:0, instance:com.FlipKart.ProductsDetails.OnemoreProductList@3b088d51]" name="oneMoreDisplay" duration-ms="93724" started-at="2020-08-17T20:08:39 IST" finished-at="2020-08-17T20:10:12 IST">
           <reporter-output>
             <line>
               <![CDATA[Login  is Displyed]]>
             </line>
             <line>
-              <![CDATA[samsung smart tv 32 inches  product successfully Selected]]>
+              <![CDATA[Home Page  is Disaplayed===> Passed]]>
+            </line>
+            <line>
+              <![CDATA[Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!]]>
+            </line>
+            <line>
+              <![CDATA[realme6 pro  product successfully Selected]]>
+            </line>
+            <line>
+              <![CDATA[ProductsList page  is Disaplayed===> Passed]]>
+            </line>
+            <line>
+              <![CDATA[Realme 6 Pro ( 64 GB GB Storage, 6 GB RAM ) Online at Best Price On Flipkart.com is displayed ]]>
             </line>
             <line>
               <![CDATA[product Details Page  is Disaplayed===> Passed]]>
             </line>
             <line>
-              <![CDATA[Currently out of stock in this area. is displayed]]>
+              <![CDATA[Order Page  is Disaplayed===> Passed]]>
+            </line>
+            <line>
+              <![CDATA[samsung smart tv 32 inches  product successfully Selected]]>
+            </line>
+            <line>
+              <![CDATA[One more ProductsList page  is Disaplayed===> Passed]]>
+            </line>
+            <line>
+              <![CDATA[Samsung 80cm (32 inch) HD Ready LED Smart TV with Voice Search Online at best Prices In India is displayed ]]>
+            </line>
+            <line>
+              <![CDATA[another product details page  is Disaplayed===> Passed]]>
             </line>
           </reporter-output>
-        </test-method> <!-- addingOutOfStock -->
-      </class> <!-- com.FlipKart.AddCart.AddingOutOfStockProduct -->
-    </test> <!-- Default test(failed) -->
-  </suite> <!-- Failed suite [Default suite] -->
+        </test-method> <!-- oneMoreDisplay -->
+      </class> <!-- com.FlipKart.ProductsDetails.OnemoreProductList -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
