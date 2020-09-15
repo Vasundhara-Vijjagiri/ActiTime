@@ -1,5 +1,6 @@
 package com.FlipKart.Home;
 
+import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
@@ -17,7 +18,7 @@ public class FlipLogout extends BaseTest {
 	public void flipkartLogout() throws Throwable
 	{FlipKartValidLogin fvl=new FlipKartValidLogin();
 	fvl.flipkartLogin();
-	
+	Assert.fail();
 	WebDriverCommonLib wlib=new WebDriverCommonLib();
 	LoginPage lp=new LoginPage(driver);
 		FlipKartLogout fkout=new FlipKartLogout(driver);

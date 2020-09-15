@@ -7,7 +7,7 @@ import com.FlipKart.Pages.SearchBox;
 import com.FlipKart.genericLib.BaseTest;
 import com.FlipKart.genericLib.FileLib;
 import com.FlipKart.genericLib.WebDriverCommonLib;
-//@Listeners(com.FlipKart.genericLib.MyListener.class)
+@Listeners(com.FlipKart.genericLib.MyListener.class)
 
 public class SearchField extends BaseTest {
 	@Test
