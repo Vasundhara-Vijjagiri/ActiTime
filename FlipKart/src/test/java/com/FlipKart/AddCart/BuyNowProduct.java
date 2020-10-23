@@ -23,7 +23,7 @@ public class BuyNowProduct extends BaseTest {
 		acp.buy(flib.getPropertyValue(PROPERTY_PATH, "pincode"));
 		wlib.waitForPageTitle(flib.getPropertyValue(PROPERTY_PATH, "buyOrderTitle"));
 		wlib.verifyPage(wlib.getPageTitle(), flib.getPropertyValue(PROPERTY_PATH, "buyOrderTitle"),"Order Summary Page");
-		
+	
 		
 		
 	}
